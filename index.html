@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walchand Collegiate Programming Contest 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="stylesheet" href="src/css/animations.css">
+</head>
+<body>
+
+  <div class="glow"></div>
+  <svg class="lattice" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#1E5128" stroke-width="1" fill="none">
+      <line x1="120" y1="80" x2="340" y2="220"/>
+      <line x1="340" y1="220" x2="260" y2="420"/>
+      <line x1="340" y1="220" x2="560" y2="180"/>
+      <line x1="560" y1="180" x2="700" y2="340"/>
+      <line x1="700" y1="340" x2="900" y2="260"/>
+      <line x1="900" y1="260" x2="1080" y2="400"/>
+      <line x1="1080" y1="400" x2="1260" y2="300"/>
+      <line x1="260" y1="420" x2="180" y2="620"/>
+      <line x1="700" y1="340" x2="640" y2="560"/>
+      <line x1="900" y1="260" x2="960" y2="120"/>
+      <line x1="1080" y1="400" x2="1150" y2="620"/>
+      <line x1="180" y1="620" x2="380" y2="740"/>
+      <line x1="640" y1="560" x2="820" y2="700"/>
+      <line x1="820" y1="700" x2="1150" y2="620"/>
+    </g>
+    <g fill="#4E9F3D">
+      <circle cx="120" cy="80" r="3"/>
+      <circle cx="340" cy="220" r="3"/>
+      <circle cx="260" cy="420" r="3"/>
+      <circle cx="560" cy="180" r="3"/>
+      <circle cx="700" cy="340" r="3"/>
+      <circle cx="900" cy="260" r="3"/>
+      <circle cx="1080" cy="400" r="3"/>
+      <circle cx="1260" cy="300" r="3"/>
+      <circle cx="180" cy="620" r="3"/>
+      <circle cx="640" cy="560" r="3"/>
+      <circle cx="960" cy="120" r="3"/>
+      <circle cx="1150" cy="620" r="3"/>
+      <circle cx="380" cy="740" r="3"/>
+      <circle cx="820" cy="700" r="3"/>
+    </g>
+  </svg>
+
+  <header>
+    <div class="logo">
+      <img src="src/logo.jpeg" alt="CodeChef WCE Chapter" class="logo-img">
+      <span class="logo-text">WCE&nbsp;Chapter</span>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#rules">Rules</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <p class="presents">CodeChef WCE Chapter presents</p>
+    <h1><span data-stroke-text>Walchand Collegiate Programming Contest 2026</span></h1>
+    <p class="tagline">Your ICPC journey starts here.</p>
+
+    <div class="info-bar">
+      <div class="info-cell">1–3 team members</div>
+      <div class="info-cell divider"><a href="https://unstop.com/p/wcpc-2k26-codechef-wce-chapter-1750817" class="cta">Register now</a></div>
+      <div class="info-cell">₹30,000 prize pool</div>
+    </div>
+  </main>
+
+  <section class="facts" id="quick-facts">
+    <p class="facts-heading">Contest Quick Facts</p>
+    <div class="facts-grid">
+
+      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+        <div class="fact-face fact-face--front">
+          <h3>Why Compete?</h3>
+          <span class="fact-hint">Tap to find out</span>
+        </div>
+        <div class="fact-face fact-face--back" aria-hidden="true">
+          <h3>Why Compete?</h3>
+          <p>Sharpen your problem-solving under real contest pressure, build an ICPC-ready track record, and meet coders from across colleges. Winning teams take home cash prizes and certificates.</p>
+        </div>
+        <div class="pixel-grid"></div>
+      </button>
+
+      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+        <div class="fact-face fact-face--front">
+          <h3>Preliminary&nbsp;Round</h3>
+          <span class="fact-hint">Tap to find out</span>
+        </div>
+        <div class="fact-face fact-face--back" aria-hidden="true">
+          <h3>Preliminary Round</h3>
+          <p>A timed online round hosted on CodeChef. Teams work through a mixed problem set within a fixed window, the top 30 teams advance to the final round.</p>
+        </div>
+        <div class="pixel-grid"></div>
+      </button>
+
+      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+        <div class="fact-face fact-face--front">
+          <h3>Final&nbsp;Round</h3>
+          <span class="fact-hint">Tap to find out</span>
+        </div>
+        <div class="fact-face fact-face--back" aria-hidden="true">
+          <h3>Final Round</h3>
+          <p>An on-campus round for qualifying teams, with tougher problems and a live leaderboard. This is where the WCPC 2026 champions are decided. At the end live boards are freezed and balloons are given similar to ICPC environment.</p>
+        </div>
+        <div class="pixel-grid"></div>
+      </button>
+
+    </div>
+  </section>
+
+  <section class="timeline-section" id="timeline">
+    <div class="section-heading">
+      <h2>Event Timeline</h2>
+      <p>Journey from registration to results.</p>
+    </div>
+
+    <div class="timeline-list">
+
+      <div class="timeline-item">
+        <div class="timeline-node">1</div>
+        <div class="timeline-card">
+          <h3>Registration Starts</h3>
+          <span class="timeline-date">14 September</span>
+          <p>Team registrations open — reserve your spot for WCPC 2026.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node">2</div>
+        <div class="timeline-card">
+          <h3>Registration Ends</h3>
+          <span class="timeline-date">21 September</span>
+          <p>Last date to register your team. Confirmation mails follow shortly after.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node">3</div>
+        <div class="timeline-card">
+          <h3>Prelims</h3>
+          <span class="timeline-date">22 September</span>
+          <p>Online preliminary round on CodeChef. Top teams advance to the finals.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-node">4</div>
+        <div class="timeline-card">
+          <h3>Finals · Mini CCF</h3>
+          <span class="timeline-date">27 September</span>
+          <p>On-campus final round at Mini CCF — problems, judging, and the WCPC 2026 winners announced.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="register-section" id="register">
+    <div class="register-banner" data-click-spark>
+      <h2>Ready to Compete?</h2>
+      <p class="fee">The entry fee is only <strong>₹239 per team</strong>.</p>
+      <p class="instruction">Fill the form to register your team and secure your spot!</p>
+      <a class="btn btn-solid" href="https://unstop.com/p/wcpc-2k26-codechef-wce-chapter-1750817" target="_blank" rel="noopener">Register Here</a>
+    </div>
+
+    <div class="quick-access">
+      <h3>Quick Access</h3>
+      <div class="quick-links">
+        <a class="btn btn-outline" href="#RULE_BOOK_LINK" target="_blank" rel="noopener">Rule Book</a>
+        <a class="btn btn-outline" href="#PAYMENT_QR_LINK" target="_blank" rel="noopener">Payment QR</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section" id="gallery">
+    <div class="section-heading" style="margin-bottom:48px;">
+      <h2>Past Glimpses</h2>
+    </div>
+
+    <div class="gallery-wrap">
+      <button class="gallery-arrow gallery-arrow--prev" id="galleryPrev" aria-label="Previous photo">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="gallery-viewport" id="galleryViewport">
+        <div class="gallery-slide is-active">
+          <img src="src/Gallery/Photo1.JPG" alt="WCPC Past Event" loading="lazy">
+          <span>WCPC 2025</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo2.jpg" alt="WCPC Past Event" loading="lazy">
+          <span>Contest Day</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo3.JPG" alt="WCPC Past Event" loading="lazy">
+          <span>Team Photo</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo4.JPG" alt="WCPC Past Event" loading="lazy">
+          <span>Prize Distribution</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo5.jpg" alt="WCPC Past Event" loading="lazy">
+          <span>Finals Round</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo6.JPG" alt="WCPC Past Event" loading="lazy">
+          <span>Participants</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo7.JPG" alt="WCPC Past Event" loading="lazy">
+          <span>Live Leaderboard</span>
+        </div>
+        <div class="gallery-slide">
+          <img src="src/Gallery/Photo8.jpg" alt="WCPC Past Event" loading="lazy">
+          <span>Award Ceremony</span>
+        </div>
+      </div>
+
+      <button class="gallery-arrow gallery-arrow--next" id="galleryNext" aria-label="Next photo">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="gallery-dots" id="galleryDots"></div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="section-heading" style="margin-bottom:0;">
+        <h2>Still have any doubts?</h2>
+        <p>We'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-cards">
+        <div class="contact-card" data-click-spark>
+          <h3>Shreyash Mantri</h3>
+          <a href="tel:+917768871911">+91 77688 71911</a>
+        </div>
+        <div class="contact-card" data-click-spark>
+          <h3>Shrenika Patil</h3>
+          <a href="tel:+9172949760992">+91 72949 760992</a>
+        </div>
+      </div>
+
+      <div class="social-row">
+        <a class="social-icon" href="#INSTAGRAM_LINK" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a class="social-icon" href="mailto:wcecodechefchapter@gmail.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6L12 13L20.5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+        <a class="social-icon" href="#LINKEDIN_LINK" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><line x1="7.5" y1="10" x2="7.5" y2="17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="7.5" cy="6.8" r="1" fill="currentColor"/><path d="M11.5 17V10M11.5 13C11.5 11 13 10 14.5 10C16 10 17 11 17 13V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+        <a class="social-icon" href="#YOUTUBE_LINK" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5.5" width="19" height="13" rx="4" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 9.5L15 12L10.5 14.5V9.5Z" fill="currentColor"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-col sponsors">
+          <p class="col-label">Sponsors</p>
+          <p class="col-text">CodeChef&nbsp;|&nbsp;Geeks for Geeks</p>
+        </div>
+
+        <div class="footer-col brand">
+          <a class="footer-logo" href="#home" aria-label="CodeChef WCE Chapter">
+            <img src="src/logo.jpeg" alt="CWC" class="footer-logo-img">
+          </a>
+        </div>
+
+        <div class="footer-col map-col">
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.609076472003!2d74.5988825760491!3d16.84573868395211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1237f52c65db5%3A0xa3535676176ded0a!2sWalchand%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1764697484371!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Walchand College of Engineering location"></iframe>
+          </div>
+          <p class="col-label">Location</p>
+        </div>
+      </div>
+
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 7L8 2L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <p class="footer-credit">Designed and developed with &lt;3 by<br>CWC Web Developer</p>
+      <p class="footer-copy">© WCPC 2026</p>
+    </div>
+  </footer>
+
+  <script src="src/js/animated-bg.js" defer></script>
+  <script src="src/js/pixel-card.js" defer></script>
+  <script src="src/js/click-spark.js" defer></script>
+  <script src="src/js/stroke-text.js" defer></script>
+  <script src="src/js/main.js" defer></script>
+</body>
+</html>
