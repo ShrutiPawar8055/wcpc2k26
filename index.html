@@ -49,27 +49,34 @@
   </svg>
 
   <header>
-    <div class="logo">
-      <img src="src/logo.jpeg" alt="CodeChef WCE Chapter" class="logo-img">
-      <span class="logo-text">WCE&nbsp;Chapter</span>
+    <div class="header-desktop-wrap" id="mainNav">
+      <nav class="nav-group nav-left">
+        <a href="#home">Home</a>
+        <a href="#rules">Rules</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+
+      <div class="nav-center">
+        <a href="#home" aria-label="Home">
+          <img src="src/logo.png" alt="CodeChef WCE Chapter" class="logo-img">
+        </a>
+      </div>
+
+      <div class="nav-group nav-right">
+        <a href="#contact" class="nav-link-contact">Contact</a>
+        <a href="https://unstop.com/p/wcpc-2k26-codechef-wce-chapter-1750817" target="_blank" rel="noopener" class="nav-btn-register">Register Now</a>
+      </div>
     </div>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
-
-    <nav id="mainNav">
-      <a href="#home">Home</a>
-      <a href="#rules">Rules</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
   <main id="home">
     <p class="presents">CodeChef WCE Chapter presents</p>
-    <h1><span data-stroke-text>Walchand Collegiate Programming Contest 2026</span></h1>
+    <h1 data-echo-text-el data-echoes="12" data-lag="0.24" data-offset="36" data-direction="right" data-fade="0.72" data-blur="3" data-tint="#61d348" data-mode="both" data-cursor-radius="320" data-duration="900" data-ease="ease-out" data-color="#D8E9A8">Walchand Collegiate Programming Contest 2026</h1>
     <p class="tagline">Your ICPC journey starts here.</p>
 
     <div class="info-bar">
@@ -83,7 +90,7 @@
     <p class="facts-heading">Contest Quick Facts</p>
     <div class="facts-grid">
 
-      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+      <button class="fact-card" data-click-spark aria-expanded="false">
         <div class="fact-face fact-face--front">
           <h3>Why Compete?</h3>
           <span class="fact-hint">Tap to find out</span>
@@ -92,10 +99,9 @@
           <h3>Why Compete?</h3>
           <p>Sharpen your problem-solving under real contest pressure, build an ICPC-ready track record, and meet coders from across colleges. Winning teams take home cash prizes and certificates.</p>
         </div>
-        <div class="pixel-grid"></div>
       </button>
 
-      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+      <button class="fact-card" data-click-spark aria-expanded="false">
         <div class="fact-face fact-face--front">
           <h3>Preliminary&nbsp;Round</h3>
           <span class="fact-hint">Tap to find out</span>
@@ -104,10 +110,9 @@
           <h3>Preliminary Round</h3>
           <p>A timed online round hosted on CodeChef. Teams work through a mixed problem set within a fixed window, the top 30 teams advance to the final round.</p>
         </div>
-        <div class="pixel-grid"></div>
       </button>
 
-      <button class="fact-card" data-pixel-card data-click-spark data-grid="7" aria-expanded="false">
+      <button class="fact-card" data-click-spark aria-expanded="false">
         <div class="fact-face fact-face--front">
           <h3>Final&nbsp;Round</h3>
           <span class="fact-hint">Tap to find out</span>
@@ -116,7 +121,6 @@
           <h3>Final Round</h3>
           <p>An on-campus round for qualifying teams, with tougher problems and a live leaderboard. This is where the WCPC 2026 champions are decided. At the end live boards are freezed and balloons are given similar to ICPC environment.</p>
         </div>
-        <div class="pixel-grid"></div>
       </button>
 
     </div>
@@ -264,16 +268,16 @@
       </div>
 
       <div class="social-row">
-        <a class="social-icon" href="#INSTAGRAM_LINK" target="_blank" rel="noopener" aria-label="Instagram">
+        <a class="social-icon" href="https://www.instagram.com/codechef_wce_chapter/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
         </a>
         <a class="social-icon" href="mailto:wcecodechefchapter@gmail.com" aria-label="Email">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6L12 13L20.5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
         </a>
-        <a class="social-icon" href="#LINKEDIN_LINK" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <a class="social-icon" href="https://www.linkedin.com/company/wce-codechef-chapter/posts/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><line x1="7.5" y1="10" x2="7.5" y2="17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="7.5" cy="6.8" r="1" fill="currentColor"/><path d="M11.5 17V10M11.5 13C11.5 11 13 10 14.5 10C16 10 17 11 17 13V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
         </a>
-        <a class="social-icon" href="#YOUTUBE_LINK" target="_blank" rel="noopener" aria-label="YouTube">
+        <a class="social-icon" href="https://www.youtube.com/@codechefwcechapter" target="_blank" rel="noopener" aria-label="YouTube">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5.5" width="19" height="13" rx="4" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 9.5L15 12L10.5 14.5V9.5Z" fill="currentColor"/></svg>
         </a>
       </div>
@@ -294,15 +298,15 @@
 
         <div class="footer-col brand">
           <a class="footer-logo" href="#home" aria-label="CodeChef WCE Chapter">
-            <img src="src/logo.jpeg" alt="CWC" class="footer-logo-img">
+            <img src="src/logo.png" alt="CWC" class="footer-logo-img">
           </a>
         </div>
 
         <div class="footer-col map-col">
+          <p class="col-label">Location</p>
           <div class="map-embed">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.609076472003!2d74.5988825760491!3d16.84573868395211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1237f52c65db5%3A0xa3535676176ded0a!2sWalchand%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1764697484371!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Walchand College of Engineering location"></iframe>
           </div>
-          <p class="col-label">Location</p>
         </div>
       </div>
 
@@ -310,16 +314,15 @@
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 7L8 2L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
 
-      <p class="footer-credit">Designed and developed with &lt;3 by<br>CWC Web Developer</p>
+      <p class="footer-credit">Designed and developed with <span class="heart-icon">♥</span> by<br>CWC Web Developer (Shruti Pawar)</p>
       <p class="footer-copy">© WCPC 2026</p>
     </div>
   </footer>
 
   <script src="src/js/animated-bg.js" defer></script>
-  <script src="src/js/pixel-card.js" defer></script>
   <script src="src/js/click-spark.js" defer></script>
-  <script src="src/js/stroke-text.js" defer></script>
   <script src="src/js/splash-cursor.js" defer></script>
+  <script src="src/js/echo-text.js" defer></script>
   <script src="src/js/main.js" defer></script>
 </body>
 </html>
