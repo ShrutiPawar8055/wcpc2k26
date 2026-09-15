@@ -122,6 +122,17 @@ header {
   transform:scale(1.06);
 }
 
+.wcpclogo-img {
+  width:208px;
+  height:68px;
+  object-fit:contain;
+  transition:transform 0.25s ease;
+}
+
+.wcpclogo-img:hover {
+  transform:scale(1.06);
+}
+
 .nav-right {
   justify-content:flex-end;
   gap:36px;
