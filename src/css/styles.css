@@ -333,7 +333,7 @@ h1 {
 
 .fact-card {
   position:relative;
-  height:240px;
+  height:300px;
   background:var(--ink-2);
   border:1px solid var(--hair);
   border-radius:8px;
